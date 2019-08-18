@@ -1,0 +1,24 @@
+{
+  "name": "battlechem",
+  "version": "1.0.0",
+  "description": "A game created for most beloved person's birthday",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && npm start",
+    "install": "cd server && npm install",
+    "postinstall": "cd server && npm install && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "battlechem"
+  },
+  "keywords": [
+    "game",
+    "multiplayer",
+    "chemistry",
+    "battleship"
+  ],
+  "author": "Jordi Yaputra",
+  "license": "ISC"
+}

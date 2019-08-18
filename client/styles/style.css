@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+#canvas-wrapper {
+    border: dotted blue 5px;
+    margin: 2px;
+    padding: 2px;
+    width: 800px;
+    height: 600px;
+}

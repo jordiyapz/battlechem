@@ -1,0 +1,24 @@
+> Paging system
+  1. Lobby
+    1. Waiting Player
+    2. Ready Statement [optional]
+
+  2. Game Module
+    1. Preparation
+    2. Gameplay
+    3. Result
+
+  - Happy Birthday Proclamation*
+
+*) remember to get the failsafe for this event
+
+> Flow
+  1. Waiting for 2 Player
+  2. Both player must state Ready
+  3. Both player enter the preparation module, then submit
+  4. Both player enter the gameplay module
+  5. After gameover, launch Result page
+
+  [Main Event]
+    If Time == 00:00 GMT+7, August, 7 2019
+      Launch Happy Birthday Proclamation
