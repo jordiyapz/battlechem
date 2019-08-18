@@ -3,7 +3,7 @@ const express = require('express');
 const socketIO = require('socket.io');
 
 const app = express();
-const PORT = 7000;
+const PORT = process.env.PORT || 7000;
 
 const clientPath = `${__dirname}/../client`;
 const libPath = `${__dirname}/../../libraries`;
